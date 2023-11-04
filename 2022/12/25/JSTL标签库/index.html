@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.0.0">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ayuthaya:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha256-CTSx/A06dm1B063156EVh15m6Y67pAjZZaQc89LLSrU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"zhaochengcube.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="常用的JSTL标签">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JSTL标签库">
+<meta property="og:url" content="https://zhaochengcube.github.io/2022/12/25/JSTL%E6%A0%87%E7%AD%BE%E5%BA%93/index.html">
+<meta property="og:site_name" content="Zhaocheng&#39;s Blog">
+<meta property="og:description" content="常用的JSTL标签">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-12-24T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-01-05T03:03:09.892Z">
+<meta property="article:author" content="Zhao Cheng">
+<meta property="article:tag" content="JSP">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://zhaochengcube.github.io/2022/12/25/JSTL%E6%A0%87%E7%AD%BE%E5%BA%93/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://zhaochengcube.github.io/2022/12/25/JSTL%E6%A0%87%E7%AD%BE%E5%BA%93/","path":"2022/12/25/JSTL标签库/","title":"JSTL标签库"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>JSTL标签库 | Zhaocheng's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Zhaocheng's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Mind is for having ideas, not holding them</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">1</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">2</span></a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%B8%E5%BF%83%E6%A0%87%E7%AD%BE%E5%BA%93"><span class="nav-number">1.</span> <span class="nav-text">核心标签库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%A0%87%E7%AD%BE"><span class="nav-number">2.</span> <span class="nav-text">格式化标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sql%E6%A0%87%E7%AD%BE"><span class="nav-number">3.</span> <span class="nav-text">sql标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#xml%E6%A0%87%E7%AD%BE"><span class="nav-number">4.</span> <span class="nav-text">xml标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#jstl%E5%87%BD%E6%95%B0"><span class="nav-number">5.</span> <span class="nav-text">jstl函数</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Zhao Cheng"
+      src="/uploads/openai.png">
+  <p class="site-author-name" itemprop="name">Zhao Cheng</p>
+  <div class="site-description" itemprop="description">欢迎来到我的世界</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/zhaochengcube" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;zhaochengcube" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://zhaochengcube.github.io/2022/12/25/JSTL%E6%A0%87%E7%AD%BE%E5%BA%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/openai.png">
+      <meta itemprop="name" content="Zhao Cheng">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Zhaocheng's Blog">
+      <meta itemprop="description" content="欢迎来到我的世界">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="JSTL标签库 | Zhaocheng's Blog">
+      <meta itemprop="description" content="常用的JSTL标签">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          JSTL标签库
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-12-25 00:00:00" itemprop="dateCreated datePublished" datetime="2022-12-25T00:00:00+08:00">2022-12-25</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-01-05 11:03:09" itemprop="dateModified" datetime="2023-01-05T11:03:09+08:00">2023-01-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/" itemprop="url" rel="index"><span itemprop="name">参考资料</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>909</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">常用的JSTL标签</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h2 id="核心标签库"><a href="#核心标签库" class="headerlink" title="核心标签库"></a>核心标签库</h2><p><code>&lt;%@ taglib prefix=&quot;c&quot; uri=&quot;&lt;http://java.sun.com/jsp/jstl/core&gt;&quot; %&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-out-tag.html">&lt;c:out&gt;</a></td>
+<td>用于在JSP中显示数据，就像&lt;%&#x3D; … &gt;</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-set-tag.html">&lt;c:set&gt;</a></td>
+<td>用于保存数据</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-remove-tag.html">&lt;c:remove&gt;</a></td>
+<td>用于删除数据</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-catch-tag.html">&lt;c:catch&gt;</a></td>
+<td>用来处理产生错误的异常状况，并且将错误信息储存起来</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-if-tag.html">&lt;c:if&gt;</a></td>
+<td>与我们在一般程序中用的if一样</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-choose-tag.html">&lt;c:choose&gt;</a></td>
+<td>本身只当做&lt;c:when&gt;和&lt;c:otherwise&gt;的父标签</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-choose-tag.html">&lt;c:when&gt;</a></td>
+<td>&lt;c:choose&gt;的子标签，用来判断条件是否成立</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-choose-tag.html">&lt;c:otherwise&gt;</a></td>
+<td>&lt;c:choose&gt;的子标签，接在&lt;c:when&gt;标签后，当&lt;c:when&gt;标签判断为false时被执行</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-import-tag.html">&lt;c:import&gt;</a></td>
+<td>检索一个绝对或相对 URL，然后将其内容暴露给页面</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-foreach-tag.html">&lt;c:forEach&gt;</a></td>
+<td>基础迭代标签，接受多种集合类型</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-foreach-tag.html">&lt;c:forTokens&gt;</a></td>
+<td>根据指定的分隔符来分隔内容并迭代输出</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-param-tag.html">&lt;c:param&gt;</a></td>
+<td>用来给包含或重定向的页面传递参数</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-redirect-tag.html">&lt;c:redirect&gt;</a></td>
+<td>重定向至一个新的URL.</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-core-url-tag.html">&lt;c:url&gt;</a></td>
+<td>使用可选的查询参数来创造一个URL</td>
+</tr>
+</tbody></table>
+<h2 id="格式化标签"><a href="#格式化标签" class="headerlink" title="格式化标签"></a>格式化标签</h2><p> <code>&lt;%@ taglib prefix=&quot;fmt&quot; uri=&quot;&lt;http://java.sun.com/jsp/jstl/fmt&gt;&quot; %&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>fmt:formatNumber</td>
+<td>使用指定的格式或精度格式化数字</td>
+</tr>
+<tr>
+<td>fmt:parseNumber</td>
+<td>解析一个代表着数字，货币或百分比的字符串</td>
+</tr>
+<tr>
+<td>fmt:formatDate</td>
+<td>使用指定的风格或模式格式化日期和时间</td>
+</tr>
+<tr>
+<td>fmt:parseDate</td>
+<td>解析一个代表着日期或时间的字符串</td>
+</tr>
+<tr>
+<td>fmt:bundle</td>
+<td>绑定资源</td>
+</tr>
+<tr>
+<td>fmt:setLocale</td>
+<td>指定地区</td>
+</tr>
+<tr>
+<td>fmt:setBundle</td>
+<td>绑定资源</td>
+</tr>
+<tr>
+<td>fmt:timeZone</td>
+<td>指定时区</td>
+</tr>
+<tr>
+<td>fmt:setTimeZone</td>
+<td>指定时区</td>
+</tr>
+<tr>
+<td>fmt:message</td>
+<td>显示资源配置文件信息</td>
+</tr>
+<tr>
+<td>fmt:requestEncoding</td>
+<td>设置request的字符编码</td>
+</tr>
+</tbody></table>
+<h2 id="sql标签"><a href="#sql标签" class="headerlink" title="sql标签"></a>sql标签</h2><p><code>&lt;%@ taglib prefix=&quot;sql&quot; uri=&quot;&lt;http://java.sun.com/jsp/jstl/sql&gt;&quot; %&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>sql:setDataSource</td>
+<td>指定数据源</td>
+</tr>
+<tr>
+<td>sql:query</td>
+<td>运行SQL查询语句</td>
+</tr>
+<tr>
+<td>sql:update</td>
+<td>运行SQL更新语句</td>
+</tr>
+<tr>
+<td>sql:param</td>
+<td>将SQL语句中的参数设为指定值</td>
+</tr>
+<tr>
+<td>sql:dateParam</td>
+<td>将SQL语句中的日期参数设为指定的java.util.Date 对象值</td>
+</tr>
+<tr>
+<td>sql:transaction</td>
+<td>在共享数据库连接中提供嵌套的数据库行为元素，将所有语句以一个事务的形式来运行</td>
+</tr>
+</tbody></table>
+<h2 id="xml标签"><a href="#xml标签" class="headerlink" title="xml标签"></a>xml标签</h2><p><code>&lt;%@ taglib prefix=&quot;x&quot; uri=&quot;&lt;http://java.sun.com/jsp/jstl/xml&gt;&quot; %&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-out-tag.html">&lt;x:out&gt;</a></td>
+<td>与&lt;%&#x3D; … &gt;,类似，不过只用于XPath表达式</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-parse-tag.html">&lt;x:parse&gt;</a></td>
+<td>解析 XML 数据</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-set-tag.html">&lt;x:set&gt;</a></td>
+<td>设置XPath表达式</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-if-tag.html">&lt;x:if&gt;</a></td>
+<td>判断XPath表达式，若为真，则执行本体中的内容，否则跳过本体</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-foreach-tag.html">&lt;x:forEach&gt;</a></td>
+<td>迭代XML文档中的节点</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-choose-tag.html">&lt;x:choose&gt;</a></td>
+<td>&lt;x:when&gt;和&lt;x:otherwise&gt;的父标签</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-choose-tag.html">&lt;x:when&gt;</a></td>
+<td>&lt;x:choose&gt;的子标签，用来进行条件判断</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-choose-tag.html">&lt;x:otherwise&gt;</a></td>
+<td>&lt;x:choose&gt;的子标签，当&lt;x:when&gt;判断为false时被执行</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-transform-tag.html">&lt;x:transform&gt;</a></td>
+<td>将XSL转换应用在XML文档中</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-xml-param-tag.html">&lt;x:param&gt;</a></td>
+<td>与&lt;x:transform&gt;共同使用，用于设置XSL样式表</td>
+</tr>
+</tbody></table>
+<h2 id="jstl函数"><a href="#jstl函数" class="headerlink" title="jstl函数"></a>jstl函数</h2><p><code>&lt;%@ taglib prefix=&quot;fn&quot; uri=&quot;&lt;http://java.sun.com/jsp/jstl/functions&gt;&quot; %&gt;</code></p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-contains.html">fn:contains()</a></td>
+<td>测试输入的字符串是否包含指定的子串</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-containsignoreCase.html">fn:containsIgnoreCase()</a></td>
+<td>测试输入的字符串是否包含指定的子串，大小写不敏感</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-endswith.html">fn:endsWith()</a></td>
+<td>测试输入的字符串是否以指定的后缀结尾</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-escapexml.html">fn:escapeXml()</a></td>
+<td>跳过可以作为XML标记的字符</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-indexof.html">fn:indexOf()</a></td>
+<td>返回指定字符串在输入字符串中出现的位置</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-join.html">fn:join()</a></td>
+<td>将数组中的元素合成一个字符串然后输出</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-length.html">fn:length()</a></td>
+<td>返回字符串长度</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-replace.html">fn:replace()</a></td>
+<td>将输入字符串中指定的位置替换为指定的字符串然后返回</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-split.html">fn:split()</a></td>
+<td>将字符串用指定的分隔符分隔然后组成一个子字符串数组并返回</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-startswith.html">fn:startsWith()</a></td>
+<td>测试输入字符串是否以指定的前缀开始</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-substring.html">fn:substring()</a></td>
+<td>返回字符串的子集</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-substringafter.html">fn:substringAfter()</a></td>
+<td>返回字符串在指定子串之后的子集</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-substringbefore.html">fn:substringBefore()</a></td>
+<td>返回字符串在指定子串之前的子集</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-tolowercase.html">fn:toLowerCase()</a></td>
+<td>将字符串中的字符转为小写</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-touppercase.html">fn:toUpperCase()</a></td>
+<td>将字符串中的字符转为大写</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/jsp/jstl-function-trim.html">fn:trim()</a></td>
+<td>移除首尾的空白符</td>
+</tr>
+</tbody></table>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Zhao Cheng
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://zhaochengcube.github.io/2022/12/25/JSTL%E6%A0%87%E7%AD%BE%E5%BA%93/" title="JSTL标签库">https://zhaochengcube.github.io/2022/12/25/JSTL标签库/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/JSP/" rel="tag"><i class="fa fa-tag"></i> JSP</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/12/25/MySQL%E5%87%BD%E6%95%B0/" rel="prev" title="MySQL函数">
+                  <i class="fa fa-angle-left"></i> MySQL函数
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2022 – 
+    <span itemprop="copyrightYear">2023</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Zhao Cheng</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">5k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">19 分钟</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+
+  
+
+
+
+
+
+</body>
+</html>
