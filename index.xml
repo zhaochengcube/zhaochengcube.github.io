@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Zhaocheng&#39;s Blog</title>
+        <link>https://zhaochengcube.github.io/</link>
+        <description>Recent content on Zhaocheng&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Zhao Cheng</copyright>
+        <lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zhaochengcube.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>JetBrains系列破解&#43;激活</title>
+        <link>https://zhaochengcube.github.io/post/jetbrains-hack/</link>
+        <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhaochengcube.github.io/post/jetbrains-hack/</guid>
+        <description>&lt;h2 id=&#34;下载补丁&#34;&gt;
+    &lt;a href=&#34;#%e4%b8%8b%e8%bd%bd%e8%a1%a5%e4%b8%81&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    下载补丁
+&lt;/h2&gt;&lt;p&gt;下载好后的&lt;code&gt;jetbra&lt;/code&gt;文件夹如下
+&lt;img src=&#34;https://gitlab.com/zhaochengcube/images/-/raw/main/pictures/2024/05/28_11_34_13_20240528113413.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;破解&#34;&gt;
+    &lt;a href=&#34;#%e7%a0%b4%e8%a7%a3&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    破解
+&lt;/h2&gt;&lt;p&gt;将&lt;code&gt;/jetbra&lt;/code&gt;文件夹复制到电脑某个路径，且路径不能含有空格和中文&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac：在终端中打开这个文件夹，进入&lt;code&gt;/jetbra/scripts&lt;/code&gt;执行&lt;code&gt;install.sh&lt;/code&gt; 脚本&lt;/li&gt;
+&lt;li&gt;Win：点击进入 &lt;code&gt;/jetbra&lt;/code&gt; 补丁目录，再点击进入 &lt;code&gt;/scripts&lt;/code&gt; 文件夹，双击执行 &lt;code&gt;install-current-user.vbs&lt;/code&gt; 脚本：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;激活&#34;&gt;
+    &lt;a href=&#34;#%e6%bf%80%e6%b4%bb&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    激活
+&lt;/h2&gt;&lt;p&gt;将激活码复制到Activation Code即可&lt;/p&gt;
+&lt;h3 id=&#34;idea&#34;&gt;
+    &lt;a href=&#34;#idea&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    IDEA
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;6G5NXCPJZB-eyJsaWNlbnNlSWQiOiI2RzVOWENQSlpCIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb290ZXIiLCJhc3NpZ25lZU5hbWUiOiIiLCJhc3NpZ25lZUVtYWlsIjoiIiwibGljZW5zZVJlc3RyaWN0aW9uIjoiIiwiY2hlY2tDb25jdXJyZW50VXNlIjpmYWxzZSwicHJvZHVjdHMiOlt7ImNvZGUiOiJQU0kiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBEQiIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX0seyJjb2RlIjoiSUkiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOmZhbHNlfSx7ImNvZGUiOiJQUEMiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBHTyIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX0seyJjb2RlIjoiUFNXIiwiZmFsbGJhY2tEYXRlIjoiMjAyNS0wOC0wMSIsInBhaWRVcFRvIjoiMjAyNS0wOC0wMSIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJQV1MiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBQUyIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX0seyJjb2RlIjoiUFJCIiwiZmFsbGJhY2tEYXRlIjoiMjAyNS0wOC0wMSIsInBhaWRVcFRvIjoiMjAyNS0wOC0wMSIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJQQ1dNUCIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX1dLCJtZXRhZGF0YSI6IjAxMjAyMjA5MDJQU0FOMDAwMDA1IiwiaGFzaCI6IlRSSUFMOi0xMDc4MzkwNTY4IiwiZ3JhY2VQZXJpb2REYXlzIjo3LCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2V9-SnRVlQQR1/9nxZ2AXsQ0seYwU5OjaiUMXrnQIIdNRvykzqQ0Q+vjXlmO7iAUwhwlsyfoMrLuvmLYwoD7fV8Mpz9Gs2gsTR8DfSHuAdvZlFENlIuFoIqyO8BneM9paD0yLxiqxy/WWuOqW6c1v9ubbfdT6z9UnzSUjPKlsjXfq9J2gcDALrv9E0RPTOZqKfnsg7PF0wNQ0/d00dy1k3zI+zJyTRpDxkCaGgijlY/LZ/wqd/kRfcbQuRzdJ/JXa3nj26rACqykKXaBH5thuvkTyySOpZwZMJVJyW7B7ro/hkFCljZug3K+bTw5VwySzJtDcQ9tDYuu0zSAeXrcv2qrOg==-MIIETDCCAjSgAwIBAgIBDTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTIwMTAxOTA5MDU1M1oXDTIyMTAyMTA5MDU1M1owHzEdMBsGA1UEAwwUcHJvZDJ5LWZyb20tMjAyMDEwMTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCUlaUFc1wf+CfY9wzFWEL2euKQ5nswqb57V8QZG7d7RoR6rwYUIXseTOAFq210oMEe++LCjzKDuqwDfsyhgDNTgZBPAaC4vUU2oy+XR+Fq8nBixWIsH668HeOnRK6RRhsr0rJzRB95aZ3EAPzBuQ2qPaNGm17pAX0Rd6MPRgjp75IWwI9eA6aMEdPQEVN7uyOtM5zSsjoj79Lbu1fjShOnQZuJcsV8tqnayeFkNzv2LTOlofU/Tbx502Ro073gGjoeRzNvrynAP03pL486P3KCAyiNPhDs2z8/COMrxRlZW5mfzo0xsK0dQGNH3UoG/9RVwHG4eS8LFpMTR9oetHZBAgMBAAGjgZkwgZYwCQYDVR0TBAIwADAdBgNVHQ4EFgQUJNoRIpb1hUHAk0foMSNM9MCEAv8wSAYDVR0jBEEwP4AUo562SGdCEjZBvW3gubSgUouX8bOhHKQaMBgxFjAUBgNVBAMMDUpldFByb2ZpbGUgQ0GCCQDSbLGDsoN54TATBgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADggIBABqRoNGxAQct9dQUFK8xqhiZaYPd30TlmCmSAaGJ0eBpvkVeqA2jGYhAQRqFiAlFC63JKvWvRZO1iRuWCEfUMkdqQ9VQPXziE/BlsOIgrL6RlJfuFcEZ8TK3syIfIGQZNCxYhLLUuet2HE6LJYPQ5c0jH4kDooRpcVZ4rBxNwddpctUO2te9UU5/FjhioZQsPvd92qOTsV+8Cyl2fvNhNKD1Uu9ff5AkVIQn4JU23ozdB/R5oUlebwaTE6WZNBs+TA/qPj+5/we9NH71WRB0hqUoLI2AKKyiPw++FtN4Su1vsdDlrAzDj9ILjpjJKA1ImuVcG329/WTYIKysZ1CWK3zATg9BeCUPAV1pQy8ToXOq+RSYen6winZ2OO93eyHv2Iw5kbn1dqfBw1BuTE29V2FJKicJSu8iEOpfoafwJISXmz1wnnWL3V/0NxTulfWsXugOoLfv0ZIBP1xH9kmf22jjQ2JiHhQZP7ZDsreRrOeIQ/c4yR8IQvMLfC0WKQqrHu5ZzXTH4NO3CwGWSlTY74kE91zXB5mwWAx1jig+UXYc2w4RkVhy0//lOmVya/PEepuuTTI4+UJwC7qbVlh5zfhj8oTNUXgN0AOc+Q0/WFPl1aw5VV/VrO8FCoB15lFVlpKaQ1Yh+DVU8ke+rt9Th0BCHXe0uZOEmH0nOnH/0onD
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;datagrip&#34;&gt;
+    &lt;a href=&#34;#datagrip&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    DataGrip
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;VPQ9LWBJ0Z-eyJsaWNlbnNlSWQiOiJWUFE5TFdCSjBaIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb290ZXIiLCJhc3NpZ25lZU5hbWUiOiIiLCJhc3NpZ25lZUVtYWlsIjoiIiwibGljZW5zZVJlc3RyaWN0aW9uIjoiIiwiY2hlY2tDb25jdXJyZW50VXNlIjpmYWxzZSwicHJvZHVjdHMiOlt7ImNvZGUiOiJQU0kiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBEQiIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX0seyJjb2RlIjoiREIiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOmZhbHNlfSx7ImNvZGUiOiJQV1MiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9XSwibWV0YWRhdGEiOiIwMTIwMjIwOTAyUFNBTjAwMDAwNSIsImhhc2giOiJUUklBTDotMjI4OTE3MTciLCJncmFjZVBlcmlvZERheXMiOjcsImF1dG9Qcm9sb25nYXRlZCI6ZmFsc2UsImlzQXV0b1Byb2xvbmdhdGVkIjpmYWxzZX0=-Y35sXvjNUN0+WMouR7PGFzl62+ApqSBgPjwganzPG1ErZKJS1xh3O8MbkZnjiTPkjODi+pyBGjozBojATCzTGx4uCt61zccnyF+XI1fE9H9WTA5DAO3/maxGFJ2KthOmkuktNnNi9qa0n7EyRuZ8rVVrc5+ETiEcfo2GctNcGqHKuRF96Bf8EL1GmCOkI8vU293X+n3XKEmN+Q1hEEBGbP9yiF5zhZDzFq0svj8g4c0fnTOrCc4GKyyEps6aDW2/DurkotUFddzDhTCyoW1Gao0EZt0AnWUALsogI9ABjdtJq3ndyvuMrXTlOr2C/hCGjqIN8ZDA0gf9mnrKBhcMbA==-MIIETDCCAjSgAwIBAgIBDTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTIwMTAxOTA5MDU1M1oXDTIyMTAyMTA5MDU1M1owHzEdMBsGA1UEAwwUcHJvZDJ5LWZyb20tMjAyMDEwMTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCUlaUFc1wf+CfY9wzFWEL2euKQ5nswqb57V8QZG7d7RoR6rwYUIXseTOAFq210oMEe++LCjzKDuqwDfsyhgDNTgZBPAaC4vUU2oy+XR+Fq8nBixWIsH668HeOnRK6RRhsr0rJzRB95aZ3EAPzBuQ2qPaNGm17pAX0Rd6MPRgjp75IWwI9eA6aMEdPQEVN7uyOtM5zSsjoj79Lbu1fjShOnQZuJcsV8tqnayeFkNzv2LTOlofU/Tbx502Ro073gGjoeRzNvrynAP03pL486P3KCAyiNPhDs2z8/COMrxRlZW5mfzo0xsK0dQGNH3UoG/9RVwHG4eS8LFpMTR9oetHZBAgMBAAGjgZkwgZYwCQYDVR0TBAIwADAdBgNVHQ4EFgQUJNoRIpb1hUHAk0foMSNM9MCEAv8wSAYDVR0jBEEwP4AUo562SGdCEjZBvW3gubSgUouX8bOhHKQaMBgxFjAUBgNVBAMMDUpldFByb2ZpbGUgQ0GCCQDSbLGDsoN54TATBgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADggIBABqRoNGxAQct9dQUFK8xqhiZaYPd30TlmCmSAaGJ0eBpvkVeqA2jGYhAQRqFiAlFC63JKvWvRZO1iRuWCEfUMkdqQ9VQPXziE/BlsOIgrL6RlJfuFcEZ8TK3syIfIGQZNCxYhLLUuet2HE6LJYPQ5c0jH4kDooRpcVZ4rBxNwddpctUO2te9UU5/FjhioZQsPvd92qOTsV+8Cyl2fvNhNKD1Uu9ff5AkVIQn4JU23ozdB/R5oUlebwaTE6WZNBs+TA/qPj+5/we9NH71WRB0hqUoLI2AKKyiPw++FtN4Su1vsdDlrAzDj9ILjpjJKA1ImuVcG329/WTYIKysZ1CWK3zATg9BeCUPAV1pQy8ToXOq+RSYen6winZ2OO93eyHv2Iw5kbn1dqfBw1BuTE29V2FJKicJSu8iEOpfoafwJISXmz1wnnWL3V/0NxTulfWsXugOoLfv0ZIBP1xH9kmf22jjQ2JiHhQZP7ZDsreRrOeIQ/c4yR8IQvMLfC0WKQqrHu5ZzXTH4NO3CwGWSlTY74kE91zXB5mwWAx1jig+UXYc2w4RkVhy0//lOmVya/PEepuuTTI4+UJwC7qbVlh5zfhj8oTNUXgN0AOc+Q0/WFPl1aw5VV/VrO8FCoB15lFVlpKaQ1Yh+DVU8ke+rt9Th0BCHXe0uZOEmH0nOnH/0onD
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;webstorm&#34;&gt;
+    &lt;a href=&#34;#webstorm&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    WebStorm
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;8R927DG13X-eyJsaWNlbnNlSWQiOiI4UjkyN0RHMTNYIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb290ZXIiLCJhc3NpZ25lZU5hbWUiOiIiLCJhc3NpZ25lZUVtYWlsIjoiIiwibGljZW5zZVJlc3RyaWN0aW9uIjoiIiwiY2hlY2tDb25jdXJyZW50VXNlIjpmYWxzZSwicHJvZHVjdHMiOlt7ImNvZGUiOiJQU0kiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IldTIiwiZmFsbGJhY2tEYXRlIjoiMjAyNS0wOC0wMSIsInBhaWRVcFRvIjoiMjAyNS0wOC0wMSIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiUFdTIiwiZmFsbGJhY2tEYXRlIjoiMjAyNS0wOC0wMSIsInBhaWRVcFRvIjoiMjAyNS0wOC0wMSIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJQQ1dNUCIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX1dLCJtZXRhZGF0YSI6IjAxMjAyMjA5MDJQU0FOMDAwMDA1IiwiaGFzaCI6IlRSSUFMOjIwMTEzMjMwMjYiLCJncmFjZVBlcmlvZERheXMiOjcsImF1dG9Qcm9sb25nYXRlZCI6ZmFsc2UsImlzQXV0b1Byb2xvbmdhdGVkIjpmYWxzZX0=-Jev3eIT6wPDh59rzeBG67oHD8GcYHifz9+OkIePP3Qo49dGX1DqLTGJgOxSClHrshRzjOktdBYwkwpeTrDMwgeGu+cy0OhzvtQMeh7R3HrEQkhGbNBjfpbW6nq6Mhv8k6Duoiw3XiU434V5iM6DgRN3Yzo8VKxU7Kb4u/SQnPTd+PR64hYJjblVXUzGHZUX4w8RBej3T0EREccs36bfnnPC2X91K/qbvr9C0uY/feHAMpuekMks0v4qApbInpw5O+elLE3l8txlNWhWSC8m/O/S7iydf27hV5mgePM5422Rpvm4dmA2DIQcq7xxdt4X67DmVGMC2yIFiH4hfkqySWg==-MIIETDCCAjSgAwIBAgIBDTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTIwMTAxOTA5MDU1M1oXDTIyMTAyMTA5MDU1M1owHzEdMBsGA1UEAwwUcHJvZDJ5LWZyb20tMjAyMDEwMTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCUlaUFc1wf+CfY9wzFWEL2euKQ5nswqb57V8QZG7d7RoR6rwYUIXseTOAFq210oMEe++LCjzKDuqwDfsyhgDNTgZBPAaC4vUU2oy+XR+Fq8nBixWIsH668HeOnRK6RRhsr0rJzRB95aZ3EAPzBuQ2qPaNGm17pAX0Rd6MPRgjp75IWwI9eA6aMEdPQEVN7uyOtM5zSsjoj79Lbu1fjShOnQZuJcsV8tqnayeFkNzv2LTOlofU/Tbx502Ro073gGjoeRzNvrynAP03pL486P3KCAyiNPhDs2z8/COMrxRlZW5mfzo0xsK0dQGNH3UoG/9RVwHG4eS8LFpMTR9oetHZBAgMBAAGjgZkwgZYwCQYDVR0TBAIwADAdBgNVHQ4EFgQUJNoRIpb1hUHAk0foMSNM9MCEAv8wSAYDVR0jBEEwP4AUo562SGdCEjZBvW3gubSgUouX8bOhHKQaMBgxFjAUBgNVBAMMDUpldFByb2ZpbGUgQ0GCCQDSbLGDsoN54TATBgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADggIBABqRoNGxAQct9dQUFK8xqhiZaYPd30TlmCmSAaGJ0eBpvkVeqA2jGYhAQRqFiAlFC63JKvWvRZO1iRuWCEfUMkdqQ9VQPXziE/BlsOIgrL6RlJfuFcEZ8TK3syIfIGQZNCxYhLLUuet2HE6LJYPQ5c0jH4kDooRpcVZ4rBxNwddpctUO2te9UU5/FjhioZQsPvd92qOTsV+8Cyl2fvNhNKD1Uu9ff5AkVIQn4JU23ozdB/R5oUlebwaTE6WZNBs+TA/qPj+5/we9NH71WRB0hqUoLI2AKKyiPw++FtN4Su1vsdDlrAzDj9ILjpjJKA1ImuVcG329/WTYIKysZ1CWK3zATg9BeCUPAV1pQy8ToXOq+RSYen6winZ2OO93eyHv2Iw5kbn1dqfBw1BuTE29V2FJKicJSu8iEOpfoafwJISXmz1wnnWL3V/0NxTulfWsXugOoLfv0ZIBP1xH9kmf22jjQ2JiHhQZP7ZDsreRrOeIQ/c4yR8IQvMLfC0WKQqrHu5ZzXTH4NO3CwGWSlTY74kE91zXB5mwWAx1jig+UXYc2w4RkVhy0//lOmVya/PEepuuTTI4+UJwC7qbVlh5zfhj8oTNUXgN0AOc+Q0/WFPl1aw5VV/VrO8FCoB15lFVlpKaQ1Yh+DVU8ke+rt9Th0BCHXe0uZOEmH0nOnH/0onD
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;more&#34;&gt;
+    &lt;a href=&#34;#more&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    More
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://jets.idejihuo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;产品激活码&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://search.censys.io/search?resource=hosts&amp;amp;sort=RELEVANCE&amp;amp;per_page=25&amp;amp;virtual_hosts=EXCLUDE&amp;amp;q=services.http.response.headers.location%3Aaccount.jetbrains.com%2Ffls-auth&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;激活服务器&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MySQL函数</title>
+        <link>https://zhaochengcube.github.io/post/mysql%E5%87%BD%E6%95%B0/</link>
+        <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhaochengcube.github.io/post/mysql%E5%87%BD%E6%95%B0/</guid>
+        <description>&lt;h2 id=&#34;mysql-字符串函数&#34;&gt;
+    &lt;a href=&#34;#mysql-%e5%ad%97%e7%ac%a6%e4%b8%b2%e5%87%bd%e6%95%b0&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    MySQL 字符串函数
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;th&gt;实例&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ASCII(s)&lt;/td&gt;
+&lt;td&gt;返回字符串 s 的第一个字符的 ASCII 码。&lt;/td&gt;
+&lt;td&gt;返回 CustomerName 字段第一个字母的 ASCII 码：&lt;br /&gt;SELECT ASCII(CustomerName) AS NumCodeOfFirstChar FROM Customers;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CHAR_LENGTH(s)&lt;/td&gt;
+&lt;td&gt;返回字符串 s 的字符数&lt;/td&gt;
+&lt;td&gt;返回字符串 RUNOOB 的字符数&lt;br /&gt;SELECT CHAR_LENGTH(&amp;ldquo;RUNOOB&amp;rdquo;) AS LengthOfString;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CHARACTER_LENGTH(s)&lt;/td&gt;
+&lt;td&gt;返回字符串 s 的字符数，等同于 CHAR_LENGTH(s)&lt;/td&gt;
+&lt;td&gt;返回字符串 RUNOOB 的字符数&lt;br /&gt;SELECT CHARACTER_LENGTH(&amp;ldquo;RUNOOB&amp;rdquo;) AS LengthOfString;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CONCAT(s1,s2&amp;hellip;sn)&lt;/td&gt;
+&lt;td&gt;字符串 s1,s2 等多个字符串合并为一个字符串&lt;/td&gt;
+&lt;td&gt;合并多个字符串&lt;br /&gt;SELECT CONCAT(&amp;ldquo;SQL &amp;ldquo;, &amp;ldquo;Runoob &amp;ldquo;, &amp;ldquo;Gooogle &amp;ldquo;, &amp;ldquo;Facebook&amp;rdquo;) AS ConcatenatedString;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CONCAT_WS(x, s1,s2&amp;hellip;sn)&lt;/td&gt;
+&lt;td&gt;同 CONCAT(s1,s2,&amp;hellip;) 函数，但是每个字符串之间要加上 x，x 可以是分隔符&lt;/td&gt;
+&lt;td&gt;合并多个字符串，并添加分隔符：&lt;br /&gt;SELECT CONCAT_WS(&amp;rdquo;-&amp;rdquo;, &amp;ldquo;SQL&amp;rdquo;, &amp;ldquo;Tutorial&amp;rdquo;, &amp;ldquo;is&amp;rdquo;, &amp;ldquo;fun!&amp;quot;)AS ConcatenatedString;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FIELD(s,s1,s2&amp;hellip;)&lt;/td&gt;
+&lt;td&gt;返回第一个字符串 s 在字符串列表(s1,s2&amp;hellip;)中的位置&lt;/td&gt;
+&lt;td&gt;返回字符串 c 在列表值中的位置：&lt;br /&gt;SELECT FIELD(&amp;ldquo;c&amp;rdquo;, &amp;ldquo;a&amp;rdquo;, &amp;ldquo;b&amp;rdquo;, &amp;ldquo;c&amp;rdquo;, &amp;ldquo;d&amp;rdquo;, &amp;ldquo;e&amp;rdquo;);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FIND_IN_SET(s1,s2)&lt;/td&gt;
+&lt;td&gt;返回在字符串s2中与s1匹配的字符串的位置&lt;/td&gt;
+&lt;td&gt;返回字符串 c 在指定字符串中的位置：&lt;br /&gt;SELECT FIND_IN_SET(&amp;ldquo;c&amp;rdquo;, &amp;ldquo;a,b,c,d,e&amp;rdquo;);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FORMAT(x,n)&lt;/td&gt;
+&lt;td&gt;函数可以将数字 x 进行格式化 &amp;ldquo;#,###.##&amp;rdquo;, 将 x 保留到小数点后 n 位，最后一位四舍五入。&lt;/td&gt;
+&lt;td&gt;格式化数字 &amp;ldquo;#,###.##&amp;rdquo; 形式：&lt;br /&gt;SELECT FORMAT(250500.5634, 2);     &amp;ndash; 输出 250,500.56&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;INSERT(s1,x,len,s2)&lt;/td&gt;
+&lt;td&gt;字符串 s2 替换 s1 的 x 位置开始长度为 len 的字符串&lt;/td&gt;
+&lt;td&gt;从字符串第一个位置开始的 6 个字符替换为 runoob：&lt;br /&gt;SELECT INSERT(&amp;ldquo;google.com&amp;rdquo;, 1, 6, &amp;ldquo;runoob&amp;rdquo;);  &amp;ndash; 输出：runoob.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LOCATE(s1,s)&lt;/td&gt;
+&lt;td&gt;从字符串 s 中获取 s1 的开始位置&lt;/td&gt;
+&lt;td&gt;获取 b 在字符串 abc 中的位置：&lt;br /&gt;SELECT LOCATE(&amp;lsquo;st&amp;rsquo;,&amp;lsquo;myteststring&amp;rsquo;);  &amp;ndash; 5&lt;br /&gt;返回字符串 abc 中 b 的位置：&lt;br /&gt;SELECT LOCATE(&amp;lsquo;b&amp;rsquo;, &amp;lsquo;abc&amp;rsquo;) &amp;ndash; 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LCASE(s)&lt;/td&gt;
+&lt;td&gt;将字符串 s 的所有字母变成小写字母&lt;/td&gt;
+&lt;td&gt;字符串 RUNOOB 转换为小写：&lt;br /&gt;SELECT LCASE(&amp;lsquo;RUNOOB&amp;rsquo;) &amp;ndash; runoob&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LEFT(s,n)&lt;/td&gt;
+&lt;td&gt;返回字符串 s 的前 n 个字符&lt;/td&gt;
+&lt;td&gt;返回字符串 runoob 中的前两个字符：&lt;br /&gt;SELECT LEFT(&amp;lsquo;runoob&amp;rsquo;,2) &amp;ndash; ru&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LOWER(s)&lt;/td&gt;
+&lt;td&gt;将字符串 s 的所有字母变成小写字母&lt;/td&gt;
+&lt;td&gt;字符串 RUNOOB 转换为小写：&lt;br /&gt;SELECT LOWER(&amp;lsquo;RUNOOB&amp;rsquo;) &amp;ndash; runoob&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LPAD(s1,len,s2)&lt;/td&gt;
+&lt;td&gt;在字符串 s1 的开始处填充字符串 s2，使字符串长度达到 len&lt;/td&gt;
+&lt;td&gt;将字符串 xx 填充到 abc 字符串的开始处：&lt;br /&gt;SELECT LPAD(&amp;lsquo;abc&amp;rsquo;,5,&amp;lsquo;xx&amp;rsquo;) &amp;ndash; xxabc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LTRIM(s)&lt;/td&gt;
+&lt;td&gt;去掉字符串 s 开始处的空格&lt;/td&gt;
+&lt;td&gt;去掉字符串 RUNOOB开始处的空格：&lt;br /&gt;SELECT LTRIM(&amp;rdquo;    RUNOOB&amp;rdquo;) AS LeftTrimmedString;&amp;ndash; RUNOOB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MID(s,n,len)&lt;/td&gt;
+&lt;td&gt;从字符串 s 的 n 位置截取长度为 len 的子字符串，同 SUBSTRING(s,n,len)&lt;/td&gt;
+&lt;td&gt;从字符串 RUNOOB 中的第 2 个位置截取 3个 字符：&lt;br /&gt;SELECT MID(&amp;ldquo;RUNOOB&amp;rdquo;, 2, 3) AS ExtractString; &amp;ndash; UNO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;POSITION(s1 IN s)&lt;/td&gt;
+&lt;td&gt;从字符串 s 中获取 s1 的开始位置&lt;/td&gt;
+&lt;td&gt;返回字符串 abc 中 b 的位置：&lt;br /&gt;SELECT POSITION(&amp;lsquo;b&amp;rsquo; in &amp;lsquo;abc&amp;rsquo;) &amp;ndash; 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REPEAT(s,n)&lt;/td&gt;
+&lt;td&gt;将字符串 s 重复 n 次&lt;/td&gt;
+&lt;td&gt;将字符串 runoob 重复三次：&lt;br /&gt;SELECT REPEAT(&amp;lsquo;runoob&amp;rsquo;,3) &amp;ndash; runoobrunoobrunoob&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REPLACE(s,s1,s2)&lt;/td&gt;
+&lt;td&gt;将字符串 s2 替代字符串 s 中的字符串 s1&lt;/td&gt;
+&lt;td&gt;将字符串 abc 中的字符 a 替换为字符 x：&lt;br /&gt;SELECT REPLACE(&amp;lsquo;abc&amp;rsquo;,&amp;lsquo;a&amp;rsquo;,&amp;lsquo;x&amp;rsquo;) &amp;ndash;xbc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REVERSE(s)&lt;/td&gt;
+&lt;td&gt;将字符串s的顺序反过来&lt;/td&gt;
+&lt;td&gt;将字符串 abc 的顺序反过来：&lt;br /&gt;SELECT REVERSE(&amp;lsquo;abc&amp;rsquo;) &amp;ndash; cba&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RIGHT(s,n)&lt;/td&gt;
+&lt;td&gt;返回字符串 s 的后 n 个字符&lt;/td&gt;
+&lt;td&gt;返回字符串 runoob 的后两个字符：&lt;br /&gt;SELECT RIGHT(&amp;lsquo;runoob&amp;rsquo;,2) &amp;ndash; ob&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RPAD(s1,len,s2)&lt;/td&gt;
+&lt;td&gt;在字符串 s1 的结尾处添加字符串 s2，使字符串的长度达到 len&lt;/td&gt;
+&lt;td&gt;将字符串 xx 填充到 abc 字符串的结尾处：&lt;br /&gt;SELECT RPAD(&amp;lsquo;abc&amp;rsquo;,5,&amp;lsquo;xx&amp;rsquo;) &amp;ndash; abcxx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RTRIM(s)&lt;/td&gt;
+&lt;td&gt;去掉字符串 s 结尾处的空格&lt;/td&gt;
+&lt;td&gt;去掉字符串 RUNOOB 的末尾空格：&lt;br /&gt;SELECT RTRIM(&amp;ldquo;RUNOOB     &amp;ldquo;) AS RightTrimmedString;   &amp;ndash; RUNOOB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SPACE(n)&lt;/td&gt;
+&lt;td&gt;返回 n 个空格&lt;/td&gt;
+&lt;td&gt;返回 10 个空格：&lt;br /&gt;SELECT SPACE(10);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;STRCMP(s1,s2)&lt;/td&gt;
+&lt;td&gt;比较字符串 s1 和 s2，如果 s1 与 s2 相等返回 0 ，如果 s1&amp;gt;s2 返回 1，如果 s1&amp;lt;s2 返回 -1&lt;/td&gt;
+&lt;td&gt;比较字符串：&lt;br /&gt;SELECT STRCMP(&amp;ldquo;runoob&amp;rdquo;, &amp;ldquo;runoob&amp;rdquo;);  &amp;ndash; 0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUBSTR(s, start, length)&lt;/td&gt;
+&lt;td&gt;从字符串 s 的 start 位置截取长度为 length 的子字符串&lt;/td&gt;
+&lt;td&gt;从字符串 RUNOOB 中的第 2 个位置截取 3个 字符：&lt;br /&gt;SELECT SUBSTR(&amp;ldquo;RUNOOB&amp;rdquo;, 2, 3) AS ExtractString; &amp;ndash; UNO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUBSTRING(s, start, length)&lt;/td&gt;
+&lt;td&gt;从字符串 s 的 start 位置截取长度为 length 的子字符串，等同于 SUBSTR(s, start, length)&lt;/td&gt;
+&lt;td&gt;从字符串 RUNOOB 中的第 2 个位置截取 3个 字符：&lt;br /&gt;SELECT SUBSTRING(&amp;ldquo;RUNOOB&amp;rdquo;, 2, 3) AS ExtractString; &amp;ndash; UNO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUBSTRING_INDEX(s, delimiter, number)&lt;/td&gt;
+&lt;td&gt;返回从字符串 s 的第 number 个出现的分隔符 delimiter 之后的子串。&lt;br /&gt;如果 number 是正数，返回第 number 个字符左边的字符串。&lt;br /&gt;如果 number 是负数，返回第(number 的绝对值(从右边数))个字符右边的字符串。&lt;/td&gt;
+&lt;td&gt;SELECT SUBSTRING_INDEX(&amp;lsquo;a&lt;em&gt;b&amp;rsquo;,&amp;rsquo;&lt;/em&gt;&amp;rsquo;,1) &amp;ndash; a SELECT SUBSTRING_INDEX(&amp;lsquo;a&lt;em&gt;b&amp;rsquo;,&amp;rsquo;&lt;/em&gt;&amp;rsquo;,-1)    &amp;ndash; b SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(&amp;lsquo;a&lt;em&gt;b&lt;/em&gt;c&lt;em&gt;d&lt;/em&gt;e&amp;rsquo;,&amp;rsquo;&lt;em&gt;&amp;rsquo;,3),&amp;rsquo;&lt;/em&gt;&amp;rsquo;,-1)    &amp;ndash; c&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TRIM(s)&lt;/td&gt;
+&lt;td&gt;去掉字符串 s 开始和结尾处的空格&lt;/td&gt;
+&lt;td&gt;去掉字符串 RUNOOB 的首尾空格：&lt;br /&gt;SELECT TRIM(&amp;rsquo;    RUNOOB    &amp;lsquo;) AS TrimmedString;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;UCASE(s)&lt;/td&gt;
+&lt;td&gt;将字符串转换为大写&lt;/td&gt;
+&lt;td&gt;将字符串 runoob 转换为大写：&lt;br /&gt;SELECT UCASE(&amp;ldquo;runoob&amp;rdquo;); &amp;ndash; RUNOOB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;UPPER(s)&lt;/td&gt;
+&lt;td&gt;将字符串转换为大写&lt;/td&gt;
+&lt;td&gt;将字符串 runoob 转换为大写：&lt;br /&gt;SELECT UPPER(&amp;ldquo;runoob&amp;rdquo;); &amp;ndash; RUNOOB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mysql-数字函数&#34;&gt;
+    &lt;a href=&#34;#mysql-%e6%95%b0%e5%ad%97%e5%87%bd%e6%95%b0&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    MySQL 数字函数
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数名&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;th&gt;实例&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ABS(x)&lt;/td&gt;
+&lt;td&gt;返回 x 的绝对值&lt;/td&gt;
+&lt;td&gt;返回 -1 的绝对值：&lt;br /&gt;SELECT ABS(-1) &amp;ndash; 返回1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ACOS(x)&lt;/td&gt;
+&lt;td&gt;求 x 的反余弦值（单位为弧度），x 为一个数值&lt;/td&gt;
+&lt;td&gt;SELECT ACOS(0.25);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ASIN(x)&lt;/td&gt;
+&lt;td&gt;求反正弦值（单位为弧度），x 为一个数值&lt;/td&gt;
+&lt;td&gt;SELECT ASIN(0.25);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ATAN(x)&lt;/td&gt;
+&lt;td&gt;求反正切值（单位为弧度），x 为一个数值&lt;/td&gt;
+&lt;td&gt;SELECT ATAN(2.5);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ATAN2(n, m)&lt;/td&gt;
+&lt;td&gt;求反正切值（单位为弧度）&lt;/td&gt;
+&lt;td&gt;SELECT ATAN2(-0.8, 2);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AVG(expression)&lt;/td&gt;
+&lt;td&gt;返回一个表达式的平均值，expression 是一个字段&lt;/td&gt;
+&lt;td&gt;返回 Products 表中Price 字段的平均值：&lt;br /&gt;SELECT AVG(Price) AS AveragePrice FROM Products;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CEIL(x)&lt;/td&gt;
+&lt;td&gt;返回大于或等于 x 的最小整数&lt;/td&gt;
+&lt;td&gt;SELECT CEIL(1.5) &amp;ndash; 返回2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CEILING(x)&lt;/td&gt;
+&lt;td&gt;返回大于或等于 x 的最小整数&lt;/td&gt;
+&lt;td&gt;SELECT CEILING(1.5); &amp;ndash; 返回2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;COS(x)&lt;/td&gt;
+&lt;td&gt;求余弦值(参数是弧度)&lt;/td&gt;
+&lt;td&gt;SELECT COS(2);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;COT(x)&lt;/td&gt;
+&lt;td&gt;求余切值(参数是弧度)&lt;/td&gt;
+&lt;td&gt;SELECT COT(6);&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;COUNT(expression)&lt;/td&gt;
+&lt;td&gt;返回查询的记录总数，expression 参数是一个字段或者 * 号&lt;/td&gt;
+&lt;td&gt;返回 Products 表中 products 字段总共有多少条记录：&lt;br /&gt;SELECT COUNT(ProductID) AS NumberOfProducts FROM Products;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DEGREES(x)&lt;/td&gt;
+&lt;td&gt;将弧度转换为角度&lt;/td&gt;
+&lt;td&gt;SELECT DEGREES(3.1415926535898) &amp;ndash; 180&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;n DIV m&lt;/td&gt;
+&lt;td&gt;整除，n 为被除数，m 为除数&lt;/td&gt;
+&lt;td&gt;计算 10 除于 5：&lt;br /&gt;SELECT 10 DIV 5;  &amp;ndash; 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;EXP(x)&lt;/td&gt;
+&lt;td&gt;返回 e 的 x 次方&lt;/td&gt;
+&lt;td&gt;计算 e 的三次方：&lt;br /&gt;SELECT EXP(3) &amp;ndash; 20.085536923188&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FLOOR(x)&lt;/td&gt;
+&lt;td&gt;返回小于或等于 x 的最大整数&lt;/td&gt;
+&lt;td&gt;小于或等于 1.5 的整数：&lt;br /&gt;SELECT FLOOR(1.5) &amp;ndash; 返回1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GREATEST(expr1, expr2, expr3, &amp;hellip;)&lt;/td&gt;
+&lt;td&gt;返回列表中的最大值&lt;/td&gt;
+&lt;td&gt;返回以下数字列表中的最大值：&lt;br /&gt;SELECT GREATEST(3, 12, 34, 8, 25); &amp;ndash; 34&lt;br /&gt;返回以下字符串列表中的最大值：&lt;br /&gt;SELECT GREATEST(&amp;ldquo;Google&amp;rdquo;, &amp;ldquo;Runoob&amp;rdquo;, &amp;ldquo;Apple&amp;rdquo;);   &amp;ndash; Runoob&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LEAST(expr1, expr2, expr3, &amp;hellip;)&lt;/td&gt;
+&lt;td&gt;返回列表中的最小值&lt;/td&gt;
+&lt;td&gt;返回以下数字列表中的最小值：&lt;br /&gt;SELECT LEAST(3, 12, 34, 8, 25); &amp;ndash; 3&lt;br /&gt;返回以下字符串列表中的最小值：&lt;br /&gt;SELECT LEAST(&amp;ldquo;Google&amp;rdquo;, &amp;ldquo;Runoob&amp;rdquo;, &amp;ldquo;Apple&amp;rdquo;);   &amp;ndash; Apple&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LN&lt;/td&gt;
+&lt;td&gt;返回数字的自然对数，以 e 为底。&lt;/td&gt;
+&lt;td&gt;返回 2 的自然对数：&lt;br /&gt;SELECT LN(2);  &amp;ndash; 0.6931471805599453&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LOG(x) 或 LOG(base, x)&lt;/td&gt;
+&lt;td&gt;返回自然对数(以 e 为底的对数)，如果带有 base 参数，则 base 为指定带底数。&lt;/td&gt;
+&lt;td&gt;SELECT LOG(20.085536923188) &amp;ndash; 3 SELECT LOG(2, 4); &amp;ndash; 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LOG10(x)&lt;/td&gt;
+&lt;td&gt;返回以 10 为底的对数&lt;/td&gt;
+&lt;td&gt;SELECT LOG10(100) &amp;ndash; 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LOG2(x)&lt;/td&gt;
+&lt;td&gt;返回以 2 为底的对数&lt;/td&gt;
+&lt;td&gt;返回以 2 为底 6 的对数：&lt;br /&gt;SELECT LOG2(6);  &amp;ndash; 2.584962500721156&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MAX(expression)&lt;/td&gt;
+&lt;td&gt;返回字段 expression 中的最大值&lt;/td&gt;
+&lt;td&gt;返回数据表 Products 中字段 Price 的最大值：&lt;br /&gt;SELECT MAX(Price) AS LargestPrice FROM Products;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MIN(expression)&lt;/td&gt;
+&lt;td&gt;返回字段 expression 中的最小值&lt;/td&gt;
+&lt;td&gt;返回数据表 Products 中字段 Price 的最小值：&lt;br /&gt;SELECT MIN(Price) AS MinPrice FROM Products;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MOD(x,y)&lt;/td&gt;
+&lt;td&gt;返回 x 除以 y 以后的余数&lt;/td&gt;
+&lt;td&gt;5 除于 2 的余数：&lt;br /&gt;SELECT MOD(5,2) &amp;ndash; 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PI()&lt;/td&gt;
+&lt;td&gt;返回圆周率(3.141593）&lt;/td&gt;
+&lt;td&gt;SELECT PI() &amp;ndash;3.141593&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;POW(x,y)&lt;/td&gt;
+&lt;td&gt;返回 x 的 y 次方&lt;/td&gt;
+&lt;td&gt;2 的 3 次方：&lt;br /&gt;SELECT POW(2,3) &amp;ndash; 8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;POWER(x,y)&lt;/td&gt;
+&lt;td&gt;返回 x 的 y 次方&lt;/td&gt;
+&lt;td&gt;2 的 3 次方：&lt;br /&gt;SELECT POWER(2,3) &amp;ndash; 8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RADIANS(x)&lt;/td&gt;
+&lt;td&gt;将角度转换为弧度&lt;/td&gt;
+&lt;td&gt;180 度转换为弧度：&lt;br /&gt;SELECT RADIANS(180) &amp;ndash; 3.1415926535898&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RAND()&lt;/td&gt;
+&lt;td&gt;返回 0 到 1 的随机数&lt;/td&gt;
+&lt;td&gt;SELECT RAND() &amp;ndash;0.93099315644334&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ROUND(x [,y])&lt;/td&gt;
+&lt;td&gt;返回离 x 最近的整数，可选参数 y 表示要四舍五入的小数位数，如果省略，则返回整数。&lt;/td&gt;
+&lt;td&gt;SELECT ROUND(1.23456) &amp;ndash;1 SELECT ROUND(345.156, 2) &amp;ndash; 345.16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SIGN(x)&lt;/td&gt;
+&lt;td&gt;返回 x 的符号，x 是负数、0、正数分别返回 -1、0 和 1&lt;/td&gt;
+&lt;td&gt;SELECT SIGN(-10) &amp;ndash; (-1)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SIN(x)&lt;/td&gt;
+&lt;td&gt;求正弦值(参数是弧度)&lt;/td&gt;
+&lt;td&gt;SELECT SIN(RADIANS(30)) &amp;ndash; 0.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SQRT(x)&lt;/td&gt;
+&lt;td&gt;返回x的平方根&lt;/td&gt;
+&lt;td&gt;25 的平方根：&lt;br /&gt;SELECT SQRT(25) &amp;ndash; 5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUM(expression)&lt;/td&gt;
+&lt;td&gt;返回指定字段的总和&lt;/td&gt;
+&lt;td&gt;计算 OrderDetails 表中字段 Quantity 的总和：&lt;br /&gt;SELECT SUM(Quantity) AS TotalItemsOrdered FROM OrderDetails;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TAN(x)&lt;/td&gt;
+&lt;td&gt;求正切值(参数是弧度)&lt;/td&gt;
+&lt;td&gt;SELECT TAN(1.75);  &amp;ndash; -5.52037992250933&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TRUNCATE(x,y)&lt;/td&gt;
+&lt;td&gt;返回数值 x 保留到小数点后 y 位的值（与 ROUND 最大的区别是不会进行四舍五入）&lt;/td&gt;
+&lt;td&gt;SELECT TRUNCATE(1.23456,3) &amp;ndash; 1.234&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mysql-日期函数&#34;&gt;
+    &lt;a href=&#34;#mysql-%e6%97%a5%e6%9c%9f%e5%87%bd%e6%95%b0&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    MySQL 日期函数
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数名&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;th&gt;实例&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ADDDATE(d,n)&lt;/td&gt;
+&lt;td&gt;计算起始日期 d 加上 n 天的日期&lt;/td&gt;
+&lt;td&gt;SELECT ADDDATE(&amp;ldquo;2017-06-15&amp;rdquo;, INTERVAL 10 DAY); -&amp;gt;2017-06-25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ADDTIME(t,n)&lt;/td&gt;
+&lt;td&gt;n 是一个时间表达式，时间 t 加上时间表达式 n&lt;/td&gt;
+&lt;td&gt;加 5 秒：&lt;br /&gt;SELECT ADDTIME(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;, 5); -&amp;gt;2011-11-11 11:11:16 (秒)&lt;br /&gt;添加 2 小时, 10 分钟, 5 秒:&lt;br /&gt;SELECT ADDTIME(&amp;ldquo;2020-06-15 09:34:21&amp;rdquo;, &amp;ldquo;2:10:5&amp;rdquo;);  -&amp;gt; 2020-06-15 11:44:26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CURDATE()&lt;/td&gt;
+&lt;td&gt;返回当前日期&lt;/td&gt;
+&lt;td&gt;SELECT CURDATE(); -&amp;gt; 2018-09-19&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CURRENT_DATE()&lt;/td&gt;
+&lt;td&gt;返回当前日期&lt;/td&gt;
+&lt;td&gt;SELECT CURRENT_DATE(); -&amp;gt; 2018-09-19&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CURRENT_TIME&lt;/td&gt;
+&lt;td&gt;返回当前时间&lt;/td&gt;
+&lt;td&gt;SELECT CURRENT_TIME(); -&amp;gt; 19:59:02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CURRENT_TIMESTAMP()&lt;/td&gt;
+&lt;td&gt;返回当前日期和时间&lt;/td&gt;
+&lt;td&gt;SELECT CURRENT_TIMESTAMP() -&amp;gt; 2018-09-19 20:57:43&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CURTIME()&lt;/td&gt;
+&lt;td&gt;返回当前时间&lt;/td&gt;
+&lt;td&gt;SELECT CURTIME(); -&amp;gt; 19:59:02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DATE()&lt;/td&gt;
+&lt;td&gt;从日期或日期时间表达式中提取日期值&lt;/td&gt;
+&lt;td&gt;SELECT DATE(&amp;ldquo;2017-06-15&amp;rdquo;);     -&amp;gt; 2017-06-15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DATEDIFF(d1,d2)&lt;/td&gt;
+&lt;td&gt;计算日期 d1-&amp;gt;d2 之间相隔的天数&lt;/td&gt;
+&lt;td&gt;SELECT DATEDIFF(&amp;lsquo;2001-01-01&amp;rsquo;,&amp;lsquo;2001-02-02&amp;rsquo;) -&amp;gt; -32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DATE_ADD(d，INTERVAL expr type)&lt;/td&gt;
+&lt;td&gt;计算起始日期 d 加上一个时间段后的日期，type 值可以是：&lt;br /&gt;- MICROSECOND&lt;br /&gt;- SECOND&lt;br /&gt;- MINUTE&lt;br /&gt;- HOUR&lt;br /&gt;- DAY&lt;br /&gt;- WEEK&lt;br /&gt;- MONTH&lt;br /&gt;- QUARTER&lt;br /&gt;- YEAR&lt;br /&gt;- SECOND_MICROSECOND&lt;br /&gt;- MINUTE_MICROSECOND&lt;br /&gt;- MINUTE_SECOND&lt;br /&gt;- HOUR_MICROSECOND&lt;br /&gt;- HOUR_SECOND&lt;br /&gt;- HOUR_MINUTE&lt;br /&gt;- DAY_MICROSECOND&lt;br /&gt;- DAY_SECOND&lt;br /&gt;- DAY_MINUTE&lt;br /&gt;- DAY_HOUR&lt;br /&gt;- YEAR_MONTH&lt;br /&gt;&lt;/td&gt;
+&lt;td&gt;SELECT DATE_ADD(&amp;ldquo;2017-06-15&amp;rdquo;, INTERVAL 10 DAY);     -&amp;gt; 2017-06-25 SELECT DATE_ADD(&amp;ldquo;2017-06-15 09:34:21&amp;rdquo;, INTERVAL 15 MINUTE); -&amp;gt; 2017-06-15 09:49:21 SELECT DATE_ADD(&amp;ldquo;2017-06-15 09:34:21&amp;rdquo;, INTERVAL -3 HOUR); -&amp;gt;2017-06-15 06:34:21 SELECT DATE_ADD(&amp;ldquo;2017-06-15 09:34:21&amp;rdquo;, INTERVAL -3 MONTH); -&amp;gt;2017-04-15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DATE_FORMAT(d,f)&lt;/td&gt;
+&lt;td&gt;按表达式 f的要求显示日期 d&lt;/td&gt;
+&lt;td&gt;SELECT DATE_FORMAT(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;,&amp;rsquo;%Y-%m-%d %r&amp;rsquo;) -&amp;gt; 2011-11-11 11:11:11 AM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DATE_SUB(date,INTERVAL expr type)&lt;/td&gt;
+&lt;td&gt;函数从日期减去指定的时间间隔。&lt;/td&gt;
+&lt;td&gt;Orders 表中 OrderDate 字段减去 2 天：&lt;br /&gt;SELECT OrderId,DATE_SUB(OrderDate,INTERVAL 2 DAY) AS OrderPayDate FROM Orders&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DAY(d)&lt;/td&gt;
+&lt;td&gt;返回日期值 d 的日期部分&lt;/td&gt;
+&lt;td&gt;SELECT DAY(&amp;ldquo;2017-06-15&amp;rdquo;);   -&amp;gt; 15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DAYNAME(d)&lt;/td&gt;
+&lt;td&gt;返回日期 d 是星期几，如 Monday,Tuesday&lt;/td&gt;
+&lt;td&gt;SELECT DAYNAME(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt;Friday&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DAYOFMONTH(d)&lt;/td&gt;
+&lt;td&gt;计算日期 d 是本月的第几天&lt;/td&gt;
+&lt;td&gt;SELECT DAYOFMONTH(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DAYOFWEEK(d)&lt;/td&gt;
+&lt;td&gt;日期 d 今天是星期几，1 星期日，2 星期一，以此类推&lt;/td&gt;
+&lt;td&gt;SELECT DAYOFWEEK(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DAYOFYEAR(d)&lt;/td&gt;
+&lt;td&gt;计算日期 d 是本年的第几天&lt;/td&gt;
+&lt;td&gt;SELECT DAYOFYEAR(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt;315&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;EXTRACT(type FROM d)&lt;/td&gt;
+&lt;td&gt;从日期 d 中获取指定的值，type 指定返回的值。&lt;br /&gt;type可取值为MICROSECOND&lt;br /&gt;- SECOND&lt;br /&gt;- MINUTE&lt;br /&gt;- HOUR&lt;br /&gt;- DAY&lt;br /&gt;- WEEK&lt;br /&gt;- MONTH&lt;br /&gt;- QUARTER&lt;br /&gt;- YEAR&lt;br /&gt;- SECOND_MICROSECOND&lt;br /&gt;- MINUTE_MICROSECOND&lt;br /&gt;- MINUTE_SECOND&lt;br /&gt;- HOUR_MICROSECOND&lt;br /&gt;- HOUR_SECOND&lt;br /&gt;- HOUR_MINUTE&lt;br /&gt;- DAY_MICROSECOND&lt;br /&gt;- DAY_SECOND&lt;br /&gt;- DAY_MINUTE&lt;br /&gt;- DAY_HOUR&lt;br /&gt;- YEAR_MONTH&lt;/td&gt;
+&lt;td&gt;SELECT EXTRACT(MINUTE FROM &amp;lsquo;2011-11-11 11:11:11&amp;rsquo;)  -&amp;gt; 11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FROM_DAYS(n)&lt;/td&gt;
+&lt;td&gt;计算从 0000 年 1 月 1 日开始 n 天后的日期&lt;/td&gt;
+&lt;td&gt;SELECT FROM_DAYS(1111) -&amp;gt; 0003-01-16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;HOUR(t)&lt;/td&gt;
+&lt;td&gt;返回 t 中的小时值&lt;/td&gt;
+&lt;td&gt;SELECT HOUR(&amp;lsquo;1:2:3&amp;rsquo;) -&amp;gt; 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LAST_DAY(d)&lt;/td&gt;
+&lt;td&gt;返回给给定日期的那一月份的最后一天&lt;/td&gt;
+&lt;td&gt;SELECT LAST_DAY(&amp;ldquo;2017-06-20&amp;rdquo;); -&amp;gt; 2017-06-30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LOCALTIME()&lt;/td&gt;
+&lt;td&gt;返回当前日期和时间&lt;/td&gt;
+&lt;td&gt;SELECT LOCALTIME() -&amp;gt; 2018-09-19 20:57:43&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LOCALTIMESTAMP()&lt;/td&gt;
+&lt;td&gt;返回当前日期和时间&lt;/td&gt;
+&lt;td&gt;SELECT LOCALTIMESTAMP() -&amp;gt; 2018-09-19 20:57:43&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MAKEDATE(year, day-of-year)&lt;/td&gt;
+&lt;td&gt;基于给定参数年份 year 和所在年中的天数序号 day-of-year 返回一个日期&lt;/td&gt;
+&lt;td&gt;SELECT MAKEDATE(2017, 3); -&amp;gt; 2017-01-03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MAKETIME(hour, minute, second)&lt;/td&gt;
+&lt;td&gt;组合时间，参数分别为小时、分钟、秒&lt;/td&gt;
+&lt;td&gt;SELECT MAKETIME(11, 35, 4); -&amp;gt; 11:35:04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MICROSECOND(date)&lt;/td&gt;
+&lt;td&gt;返回日期参数所对应的微秒数&lt;/td&gt;
+&lt;td&gt;SELECT MICROSECOND(&amp;ldquo;2017-06-20 09:34:00.000023&amp;rdquo;); -&amp;gt; 23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MINUTE(t)&lt;/td&gt;
+&lt;td&gt;返回 t 中的分钟值&lt;/td&gt;
+&lt;td&gt;SELECT MINUTE(&amp;lsquo;1:2:3&amp;rsquo;) -&amp;gt; 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MONTHNAME(d)&lt;/td&gt;
+&lt;td&gt;返回日期当中的月份名称，如 November&lt;/td&gt;
+&lt;td&gt;SELECT MONTHNAME(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt; November&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MONTH(d)&lt;/td&gt;
+&lt;td&gt;返回日期d中的月份值，1 到 12&lt;/td&gt;
+&lt;td&gt;SELECT MONTH(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NOW()&lt;/td&gt;
+&lt;td&gt;返回当前日期和时间&lt;/td&gt;
+&lt;td&gt;SELECT NOW() -&amp;gt; 2018-09-19 20:57:43&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PERIOD_ADD(period, number)&lt;/td&gt;
+&lt;td&gt;为 年-月 组合日期添加一个时段&lt;/td&gt;
+&lt;td&gt;SELECT PERIOD_ADD(201703, 5);    -&amp;gt; 201708&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PERIOD_DIFF(period1, period2)&lt;/td&gt;
+&lt;td&gt;返回两个时段之间的月份差值&lt;/td&gt;
+&lt;td&gt;SELECT PERIOD_DIFF(201710, 201703); -&amp;gt; 7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QUARTER(d)&lt;/td&gt;
+&lt;td&gt;返回日期d是第几季节，返回 1 到 4&lt;/td&gt;
+&lt;td&gt;SELECT QUARTER(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt; 4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SECOND(t)&lt;/td&gt;
+&lt;td&gt;返回 t 中的秒钟值&lt;/td&gt;
+&lt;td&gt;SELECT SECOND(&amp;lsquo;1:2:3&amp;rsquo;) -&amp;gt; 3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SEC_TO_TIME(s)&lt;/td&gt;
+&lt;td&gt;将以秒为单位的时间 s 转换为时分秒的格式&lt;/td&gt;
+&lt;td&gt;SELECT SEC_TO_TIME(4320) -&amp;gt; 01:12:00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;STR_TO_DATE(string, format_mask)&lt;/td&gt;
+&lt;td&gt;将字符串转变为日期&lt;/td&gt;
+&lt;td&gt;SELECT STR_TO_DATE(&amp;ldquo;August 10 2017&amp;rdquo;, &amp;ldquo;%M %d %Y&amp;rdquo;); -&amp;gt; 2017-08-10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUBDATE(d,n)&lt;/td&gt;
+&lt;td&gt;日期 d 减去 n 天后的日期&lt;/td&gt;
+&lt;td&gt;SELECT SUBDATE(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;, 1) -&amp;gt;2011-11-10 11:11:11 (默认是天)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUBTIME(t,n)&lt;/td&gt;
+&lt;td&gt;时间 t 减去 n 秒的时间&lt;/td&gt;
+&lt;td&gt;SELECT SUBTIME(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;, 5) -&amp;gt;2011-11-11 11:11:06 (秒)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SYSDATE()&lt;/td&gt;
+&lt;td&gt;返回当前日期和时间&lt;/td&gt;
+&lt;td&gt;SELECT SYSDATE() -&amp;gt; 2018-09-19 20:57:43&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TIME(expression)&lt;/td&gt;
+&lt;td&gt;提取传入表达式的时间部分&lt;/td&gt;
+&lt;td&gt;SELECT TIME(&amp;ldquo;19:30:10&amp;rdquo;); -&amp;gt; 19:30:10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TIME_FORMAT(t,f)&lt;/td&gt;
+&lt;td&gt;按表达式 f 的要求显示时间 t&lt;/td&gt;
+&lt;td&gt;SELECT TIME_FORMAT(&amp;lsquo;11:11:11&amp;rsquo;,&amp;rsquo;%r&amp;rsquo;) 11:11:11 AM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TIME_TO_SEC(t)&lt;/td&gt;
+&lt;td&gt;将时间 t 转换为秒&lt;/td&gt;
+&lt;td&gt;SELECT TIME_TO_SEC(&amp;lsquo;1:12:00&amp;rsquo;) -&amp;gt; 4320&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TIMEDIFF(time1, time2)&lt;/td&gt;
+&lt;td&gt;计算时间差值&lt;/td&gt;
+&lt;td&gt;mysql&amp;gt; SELECT TIMEDIFF(&amp;ldquo;13:10:11&amp;rdquo;, &amp;ldquo;13:10:计算日期10&amp;rdquo;); -&amp;gt; 00:00:01 mysql&amp;gt; SELECT TIMEDIFF(&amp;lsquo;2000:01:01 00:00:00&amp;rsquo;,     -&amp;gt;                 &amp;lsquo;2000:01:01 00:00:00.000001&amp;rsquo;);         -&amp;gt; &amp;lsquo;-00:00:00.000001&amp;rsquo; mysql&amp;gt; SELECT TIMEDIFF(&amp;lsquo;2008-12-31 23:59:59.000001&amp;rsquo;,     -&amp;gt;                 &amp;lsquo;2008-12-30 01:01:01.000002&amp;rsquo;);         -&amp;gt; &amp;lsquo;46:58:57.999999&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TIMESTAMP(expression, interval)&lt;/td&gt;
+&lt;td&gt;单个参数时，函数返回日期或日期时间表达式；有2个参数时，将参数加和&lt;/td&gt;
+&lt;td&gt;mysql&amp;gt; SELECT TIMESTAMP(&amp;ldquo;2017-07-23&amp;rdquo;,  &amp;ldquo;13:10:11&amp;rdquo;); -&amp;gt; 2017-07-23 13:10:11 mysql&amp;gt; SELECT TIMESTAMP(&amp;lsquo;2003-12-31&amp;rsquo;);         -&amp;gt; &amp;lsquo;2003-12-31 00:00:00&amp;rsquo; mysql&amp;gt; SELECT TIMESTAMP(&amp;lsquo;2003-12-31 12:00:00&amp;rsquo;,&amp;lsquo;12:00:00&amp;rsquo;);         -&amp;gt; &amp;lsquo;2004-01-01 00:00:00&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TIMESTAMPDIFF(unit,datetime_expr1,datetime_expr2)&lt;/td&gt;
+&lt;td&gt;计算时间差，返回 datetime_expr2 − datetime_expr1 的时间差&lt;/td&gt;
+&lt;td&gt;mysql&amp;gt; SELECT TIMESTAMPDIFF(DAY,&amp;lsquo;2003-02-01&amp;rsquo;,&amp;lsquo;2003-05-01&amp;rsquo;);   // 计算两个时间相隔多少天         -&amp;gt; 89 mysql&amp;gt; SELECT TIMESTAMPDIFF(MONTH,&amp;lsquo;2003-02-01&amp;rsquo;,&amp;lsquo;2003-05-01&amp;rsquo;);   // 计算两个时间相隔多少月         -&amp;gt; 3 mysql&amp;gt; SELECT TIMESTAMPDIFF(YEAR,&amp;lsquo;2002-05-01&amp;rsquo;,&amp;lsquo;2001-01-01&amp;rsquo;);    // 计算两个时间相隔多少年         -&amp;gt; -1 mysql&amp;gt; SELECT TIMESTAMPDIFF(MINUTE,&amp;lsquo;2003-02-01&amp;rsquo;,&amp;lsquo;2003-05-01 12:05:55&amp;rsquo;);  // 计算两个时间相隔多少分钟         -&amp;gt; 128885&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TO_DAYS(d)&lt;/td&gt;
+&lt;td&gt;计算日期 d 距离 0000 年 1 月 1 日的天数&lt;/td&gt;
+&lt;td&gt;SELECT TO_DAYS(&amp;lsquo;0001-01-01 01:01:01&amp;rsquo;) -&amp;gt; 366&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WEEK(d)&lt;/td&gt;
+&lt;td&gt;计算日期 d 是本年的第几个星期，范围是 0 到 53&lt;/td&gt;
+&lt;td&gt;SELECT WEEK(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt; 45&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WEEKDAY(d)&lt;/td&gt;
+&lt;td&gt;日期 d 是星期几，0 表示星期一，1 表示星期二&lt;/td&gt;
+&lt;td&gt;SELECT WEEKDAY(&amp;ldquo;2017-06-15&amp;rdquo;); -&amp;gt; 3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WEEKOFYEAR(d)&lt;/td&gt;
+&lt;td&gt;计算日期 d 是本年的第几个星期，范围是 0 到 53&lt;/td&gt;
+&lt;td&gt;SELECT WEEKOFYEAR(&amp;lsquo;2011-11-11 11:11:11&amp;rsquo;) -&amp;gt; 45&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;YEAR(d)&lt;/td&gt;
+&lt;td&gt;返回年份&lt;/td&gt;
+&lt;td&gt;SELECT YEAR(&amp;ldquo;2017-06-15&amp;rdquo;); -&amp;gt; 2017&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;YEARWEEK(date, mode)&lt;/td&gt;
+&lt;td&gt;返回年份及第几周（0到53），mode 中 0 表示周天，1表示周一，以此类推&lt;/td&gt;
+&lt;td&gt;SELECT YEARWEEK(&amp;ldquo;2017-06-15&amp;rdquo;); -&amp;gt; 201724&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;mysql-高级函数&#34;&gt;
+    &lt;a href=&#34;#mysql-%e9%ab%98%e7%ba%a7%e5%87%bd%e6%95%b0&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    MySQL 高级函数
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数名&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;th&gt;实例&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;BIN(x)&lt;/td&gt;
+&lt;td&gt;返回 x 的二进制编码&lt;/td&gt;
+&lt;td&gt;15 的 2 进制编码:&lt;br /&gt;SELECT BIN(15); &amp;ndash; 1111&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BINARY(s)&lt;/td&gt;
+&lt;td&gt;将字符串 s 转换为二进制字符串&lt;/td&gt;
+&lt;td&gt;SELECT BINARY &amp;ldquo;RUNOOB&amp;rdquo;; -&amp;gt; RUNOOB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CASE expression     WHEN condition1 THEN result1     WHEN condition2 THEN result2    &amp;hellip;     WHEN conditionN THEN resultN     ELSE result END&lt;/td&gt;
+&lt;td&gt;CASE 表示函数开始，END 表示函数结束。如果 condition1 成立，则返回 result1, 如果 condition2 成立，则返回 result2，当全部不成立则返回 result，而当有一个成立之后，后面的就不执行了。&lt;/td&gt;
+&lt;td&gt;SELECT CASE  　　WHEN 1 &amp;gt; 0 　　THEN &amp;lsquo;1 &amp;gt; 0&amp;rsquo; 　　WHEN 2 &amp;gt; 0 　　THEN &amp;lsquo;2 &amp;gt; 0&amp;rsquo; 　　ELSE &amp;lsquo;3 &amp;gt; 0&amp;rsquo; 　　END -&amp;gt;1 &amp;gt; 0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CAST(x AS type)&lt;/td&gt;
+&lt;td&gt;转换数据类型&lt;/td&gt;
+&lt;td&gt;字符串日期转换为日期：&lt;br /&gt;SELECT CAST(&amp;ldquo;2017-08-29&amp;rdquo; AS DATE); -&amp;gt; 2017-08-29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;COALESCE(expr1, expr2, &amp;hellip;., expr_n)&lt;/td&gt;
+&lt;td&gt;返回参数中的第一个非空表达式（从左向右）&lt;/td&gt;
+&lt;td&gt;SELECT COALESCE(NULL, NULL, NULL, &amp;lsquo;runoob.com&amp;rsquo;, NULL, &amp;lsquo;google.com&amp;rsquo;); -&amp;gt; runoob.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CONNECTION_ID()&lt;/td&gt;
+&lt;td&gt;返回唯一的连接 ID&lt;/td&gt;
+&lt;td&gt;SELECT CONNECTION_ID(); -&amp;gt; 4292835&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CONV(x,f1,f2)&lt;/td&gt;
+&lt;td&gt;返回 f1 进制数变成 f2 进制数&lt;/td&gt;
+&lt;td&gt;SELECT CONV(15, 10, 2); -&amp;gt; 1111&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CONVERT(s USING cs)&lt;/td&gt;
+&lt;td&gt;函数将字符串 s 的字符集变成 cs&lt;/td&gt;
+&lt;td&gt;SELECT CHARSET(&amp;lsquo;ABC&amp;rsquo;) -&amp;gt;utf-8     SELECT CHARSET(CONVERT(&amp;lsquo;ABC&amp;rsquo; USING gbk)) -&amp;gt;gbk&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CURRENT_USER()&lt;/td&gt;
+&lt;td&gt;返回当前用户&lt;/td&gt;
+&lt;td&gt;SELECT CURRENT_USER(); -&amp;gt; guest@%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DATABASE()&lt;/td&gt;
+&lt;td&gt;返回当前数据库名&lt;/td&gt;
+&lt;td&gt;SELECT DATABASE();    -&amp;gt; runoob&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IF(expr,v1,v2)&lt;/td&gt;
+&lt;td&gt;如果表达式 expr 成立，返回结果 v1；否则，返回结果 v2。&lt;/td&gt;
+&lt;td&gt;SELECT IF(1 &amp;gt; 0,&amp;lsquo;正确&amp;rsquo;,&amp;lsquo;错误&amp;rsquo;)     -&amp;gt;正确&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.runoob.com/mysql/mysql-func-ifnull.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IFNULL(v1,v2)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;如果 v1 的值不为 NULL，则返回 v1，否则返回 v2。&lt;/td&gt;
+&lt;td&gt;SELECT IFNULL(null,&amp;lsquo;Hello Word&amp;rsquo;) -&amp;gt;Hello Word&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ISNULL(expression)&lt;/td&gt;
+&lt;td&gt;判断表达式是否为 NULL&lt;/td&gt;
+&lt;td&gt;SELECT ISNULL(NULL); -&amp;gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LAST_INSERT_ID()&lt;/td&gt;
+&lt;td&gt;返回最近生成的 AUTO_INCREMENT 值&lt;/td&gt;
+&lt;td&gt;SELECT LAST_INSERT_ID(); -&amp;gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NULLIF(expr1, expr2)&lt;/td&gt;
+&lt;td&gt;比较两个字符串，如果字符串 expr1 与 expr2 相等 返回 NULL，否则返回 expr1&lt;/td&gt;
+&lt;td&gt;SELECT NULLIF(25, 25); -&amp;gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SESSION_USER()&lt;/td&gt;
+&lt;td&gt;返回当前用户&lt;/td&gt;
+&lt;td&gt;SELECT SESSION_USER(); -&amp;gt; guest@%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SYSTEM_USER()&lt;/td&gt;
+&lt;td&gt;返回当前用户&lt;/td&gt;
+&lt;td&gt;SELECT SYSTEM_USER(); -&amp;gt; guest@%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;USER()&lt;/td&gt;
+&lt;td&gt;返回当前用户&lt;/td&gt;
+&lt;td&gt;SELECT USER(); -&amp;gt; guest@%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;VERSION()&lt;/td&gt;
+&lt;td&gt;返回数据库的版本号&lt;/td&gt;
+&lt;td&gt;SELECT VERSION() -&amp;gt; 5.6.34&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>文档库</title>
+        <link>https://zhaochengcube.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhaochengcube.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://zhaochengcube.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhaochengcube.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://zhaochengcube.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhaochengcube.github.io/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友链</title>
+        <link>https://zhaochengcube.github.io/%E5%8F%8B%E9%93%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhaochengcube.github.io/%E5%8F%8B%E9%93%BE/</guid>
+        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
